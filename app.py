@@ -8,7 +8,7 @@ st.write("Aplikasi ini membantu Guru membuat modul ajar dengan cepat.")
 
 # 2. Bagian API Key (Agar aman, user memasukkan sendiri)
 with st.sidebar:
-    api_key = st.text_input("Masukkan API Key Gemini Anda:", type="password")
+    api_key = st.text_input("AIzaSyAu_L7NpeLKwqNU5ObfViuH_vyaxo0fMZU", type="password")
     st.info("Dapatkan API Key di Google AI Studio secara gratis.")
 
 # 3. Logika Utama
